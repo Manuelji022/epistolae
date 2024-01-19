@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "epistolae"
+version = "0.1.0"
+description = "An email grammar corrector powered by AI"
+authors = ["Manuelji <manueljl22@outlook.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+semantic-kernel = "^0.4.5.dev0"
+dotenv = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
