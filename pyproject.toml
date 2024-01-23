@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "epistolae"
+version = "0.1.0"
+description = "Python project that uses Semantic Kernel and Reflex"
+authors = ["Manuelji <manueljl22@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+reflex = "^0.3.9"
+semantic-kernel = "^0.4.6.dev0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
